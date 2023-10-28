@@ -71,7 +71,24 @@ body{
 .lower-header .nav-content a:hover{
     color: #ff4a32;
     cursor: pointer;
+
 }
+.info-options {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(74, 73, 73, 0.2);
+}
+.more-info:hover .info-options {
+    display: block;
+}
+.info-options a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #333;
+}
+
 .main1{
     width: 100%;
     display: flex;
